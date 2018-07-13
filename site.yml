@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: localhost:tag_Name_jenkins
   roles:
     - osm_jenkins
   become: yes
